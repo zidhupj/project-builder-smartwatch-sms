@@ -26,8 +26,8 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 Setup the sms feature in your smartwatch.
 
 ![Image description](https://i1.faceprep.in/ProGrad/sm-2.PNG)
-### Progression 2: SET THE DATE AND TIME
-Setup the 'eventlistener' in the sms feature. When i click on the particular message it should show the description.
+### Progression 2: SHOW EM THE TEXT
+Setup the 'eventlistener' in the sms feature. When you click on the particular message it should show the complete text.
 
 ![Image description](https://i1.faceprep.in/ProGrad/sm-3.PNG)
 
