@@ -22,11 +22,12 @@ git push origin master
 And finally, create a pull request so your ProGrad Mentor (PM) can review your work.
 ```
 
-### Progression 1: UI
-Create the design of smartwatch.
+### Progression 1: IT'S TIME FOR A SMS
+Setup the sms feature in your smartwatch.
+
 ![Image description](https://i1.faceprep.in/ProGrad/sm-2.PNG)
 ### Progression 2: SET THE DATE AND TIME
-Set the date and time in the smartwatch.
+Setup the 'eventlistener' in the sms feature. When i click on the particular message it should show the description.
 
 ![Image description](https://i1.faceprep.in/ProGrad/sm-3.PNG)
 
