@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist',
+        sans-serif;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background: #21292f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 100;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    width: 300px;
+    height: 370px;
+    background-color: #3b3b3b;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    width: 300px;
+    height: 320px;
+    background-color: #000000;
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.time {
+    font-size: 1rem;
+    font-weight: 200;
+    position: absolute;
+    top: 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 5px;
+    gap: 30px;
+}
+
+.icon {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.screen {
+    position: absolute;
+    width: 230px;
+    height: 70%;
+    bottom: 18%;
+    border-radius: 40px;
+}
+
+.screen::-webkit-scrollbar {
+    width: 10px;
+    height: 0;
+}
+
+.screen::-webkit-scrollbar-track {
+    background: rgb(184, 184, 184);
+    border-radius: 100vw;
+    margin-block: 30px;
+}
+
+.screen::-webkit-scrollbar-thumb {
+    background: rgb(117, 117, 117);
+    border-radius: 100vw;
+}
+
+.screen::-webkit-scrollbar-thumb:hover {
+    background: rgb(71, 71, 71);
+}
+
+.screen-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.screen-message {
+    display: grid;
+    overflow: scroll;
+}
+
+.datetime-time {
+    font-size: 4rem;
+    font-weight: 200;
+    /* color: #000000; */
+}
+
+.message-title {
+    padding: 20px;
+    display: grid;
+    grid-gap: 5px;
+    margin-bottom: -15px;
+    cursor: pointer;
+}
+
+.message-title:hover {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
+}
+
+.message-body {
+    padding: 20px;
+}
+
+.message-body>div {
+    color: #000000;
+    font-weight: 300;
+}
+
+.message-title>div {
+    color: #000000;
+    font-size: 1.05rem;
+    font-weight: 300;
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
